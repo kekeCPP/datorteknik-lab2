@@ -1,0 +1,31 @@
+#include <stdio.h>
+
+int setup();
+void interrupt();
+
+int main()
+{
+    char gpio[7] = {0};
+    // short gpio = 0;
+    // int pin = 2;
+    // short a = (0x2<<6);
+    // int b = (4 - pin)<<1;
+
+    // a = a<<b;
+
+    // short x = gpio | a;
+
+    long int adr = setup();
+    interrupt();
+    interrupt();
+    interrupt();
+    interrupt();
+    interrupt();
+    interrupt();
+    interrupt();
+    interrupt();
+    interrupt();
+    interrupt();
+
+    return 0;
+}
