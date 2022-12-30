@@ -1,5 +1,4 @@
 	.data
-# msg:		.asciz "THE ADDRESS IS: %d\n"
 counter:	.quad 0
 GPIO:		.quad 0
 	.text
